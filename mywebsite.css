@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: min-content;
+}
+
+nav {
+    height: 80px;
+    background-color:darkcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25cm 0.5cm;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 0.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color:beige;
+    padding: 0 1.5rem;
+}
+
+.home {
+    background-image: url(50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg);
+    background-size:cover;
+}
+
+.home-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    margin-top: 2rem;
+    background-color:black;
+}
+
+img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+}
+
+img:hover {
+    width: 275px;
+    height: 450px;
+    transition: 0.2s ;
+    cursor:zoom-out;
+}

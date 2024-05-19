@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: min-content;
+}
+
+nav {
+    height: 80px;
+    background-color:darkcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25cm 0.5cm;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 0.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color:beige;
+    padding: 0 1.5rem;
+}
+
+.projects {
+    background-image: url(50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg);
+    background-size:cover;
+}
+
+.projects-container {
+    display:flex;
+    flex-direction: column;
+    text-align: center ;
+    width: 100%;
+}
+
+.intros h1{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center ;
+}
+
+.intros {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.intros h2 {
+    font-size: 1.90rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline;
+    color: brown;
+}
+
+.intros p {
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width : 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 15px black;
+}
+
+img:hover {
+    transition: 0.5s ;
+    cursor:pointer;
+    opacity: 0.75;
+}
+
+@media screen and (max-width:780px) {
+    .home-container {
+        grid-template-columns: 1fr;
+    }
+}
