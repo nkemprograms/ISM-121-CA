@@ -49,14 +49,77 @@ nav a {
 }
 
 img {
-    width: 250px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     object-fit: cover;
 }
 
 img:hover {
-    width: 275px;
-    height: 450px;
+    width: 250px;
+    height: 375px;
     transition: 0.2s ;
-    cursor:zoom-out;
+    cursor:pointer;
+}
+
+.me {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    color:black;
+    padding: 1rem;
+}
+
+.me h1 {
+    margin-top: 2rem;
+    font-size: 4rem;
+    text-align-last: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+.intro {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    color:black;
+    padding: 1rem;
+}
+
+.intro h2 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align-last: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+
+.intro p {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    border: 20px;
+    color:azure;
+    background: black;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color:darkgray;
+    color:black; 
+}
+
+@media screen and (max-width:780px) {
+    .home-container {
+        grid-template-columns: 1fr;
+    }
 }
