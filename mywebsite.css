@@ -122,4 +122,10 @@ button:hover {
     .home-container {
         grid-template-columns: 1fr;
     }
+    .me h1{
+        text-align: center;
+    }
+    .intro {
+        text-align: center;
+    }
 }

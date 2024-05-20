@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    min-width: min-content;
 }
 
 nav {
@@ -12,6 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.25cm 0.5cm;
+    min-width: 400px;
 }
 
 .logo {
@@ -30,6 +30,7 @@ nav a {
 .projects {
     background-image: url(50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg);
     background-size:cover;
+    min-width: min-content;
 }
 
 .projects-container {
@@ -79,9 +80,10 @@ img {
 }
 
 img:hover {
-    transition: 0.5s ;
+    width: 450px;
+    height: 450px;
+    transition: 0.3s ;
     cursor:pointer;
-    opacity: 0.75;
 }
 
 @media screen and (max-width:780px) {

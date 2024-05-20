@@ -109,4 +109,8 @@ img:hover {
     .profile-container {
         grid-template-columns: 1fr;
     }
+    .column-left {
+        text-align: center;
+        padding: 1rem;
+    }
 }
