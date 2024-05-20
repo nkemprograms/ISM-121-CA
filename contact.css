@@ -25,6 +25,15 @@ nav a {
     text-decoration: none;
     color:beige;
     padding: 0 1.5rem;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color:orange;
+}
+
+span {
+    color:orange;
 }
 
 .contact {
@@ -147,7 +156,7 @@ nav a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 780px) {
     .contact {
         padding: 50px;
     }

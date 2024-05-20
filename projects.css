@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.25cm 0.5cm;
-    min-width: 400px;
+    min-width: 402px;
 }
 
 .logo {
@@ -25,12 +25,21 @@ nav a {
     text-decoration: none;
     color:beige;
     padding: 0 1.5rem;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color:orange;
+}
+
+span {
+    color:orange;
 }
 
 .projects {
     background-image: url(50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg);
     background-size:cover;
-    min-width: min-content;
+    min-width: 440px;
 }
 
 .projects-container {
@@ -87,7 +96,13 @@ img:hover {
 }
 
 @media screen and (max-width:780px) {
-    .home-container {
+    .projects-container {
         grid-template-columns: 1fr;
     }
+    img:hover {
+        width: 400px;
+        height: 400px;
+        transition: 0.3s ;
+    }
+
 }
