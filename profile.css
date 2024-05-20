@@ -122,4 +122,11 @@ img:hover {
         text-align: center;
         padding: 1rem; 
     }
+    img {
+        width: 280px;
+        height: 420px;
+        object-fit: cover;
+        box-shadow: 10px 10px 5px;
+    }
+    
 }
